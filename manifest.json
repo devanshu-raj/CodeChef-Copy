@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name":"CodeChef Copy",
+    "version": "0.1",
+    "author": "Devanshu Raj",
+    "description": "Copy sample testcases from CodeChef with a single click",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.codechef.com/*/problems/*",
+            "https://www.codechef.com/problems/*"
+          ],
+          "js": ["content_script.js"]
+        }
+      ],
+    "permissions": [
+      "activeTab"
+    ]
+}
