@@ -6,10 +6,8 @@ CodeChef Copy is a web browser extension for [codechef.com](https://www.codechef
 
 ## Getting Started
 
- 1. Clone or download this repository as zip and extract the files to a folder.
+ * If you are using Firefox, [click here](https://addons.mozilla.org/en-US/firefox/addon/codechef-copy/) to add the extension from [addons.mozilla.org](https://addons.mozilla.org).
 
- 2. In firefox, select `Debug Add-ons` in the add-ons manager `about:addons` and click on `Load Temporary Add-on` to locate the file `content_script.js`.
+ * To add in chromium-based browsers, first download this repository as zip and extract the files to a folder. Then, turn on the `Developer mode` and select `Load Unpacked` in the extensions manager to locate the folder.
 
- 3. In chromium-based browsers, turn on the `Developer mode` and select `Load Unpacked` in the extensions manager to locate the folder.
-
-**Note :** Open the problem in a new tab (Ctrl + Click) to make sure it works. If it still doesn't work, refresh the page.
+**Note :** Open the problems in new tab (Ctrl + Click) to make sure it works every time. If it still doesn't work, refresh the page.
